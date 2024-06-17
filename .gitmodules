@@ -1,0 +1,9 @@
+[submodule "angular"]
+	path = angular
+	url = https://github.com/DnItnl/angular.git
+[submodule "nest"]
+	path = nest
+	url = https://github.com/DnItnl/nest.git
+[submodule "laravel"]
+	path = laravel
+	url = https://github.com/DnItnl/laravel.git
