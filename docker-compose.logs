@@ -1,0 +1,1605 @@
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:05:55.560 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:05:55.561 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:05:55.561 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:05:55.563 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:05:55.566 UTC [28] LOG:  database system was shut down at 2024-07-01 13:58:20 UTC
+postgres  | 2024-07-01 14:05:55.570 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:06:21.681 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:06:21.682 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:06:21.683 UTC [1] LOG:  background worker "logical replication launcher" (PID 31) exited with exit code 1
+postgres  | 2024-07-01 14:06:21.683 UTC [26] LOG:  shutting down
+postgres  | 2024-07-01 14:06:21.684 UTC [26] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:06:21.688 UTC [26] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.005 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987AE0, redo lsn=0/1987AE0
+postgres  | 2024-07-01 14:06:21.690 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:06:23.260 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:06:23.260 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:06:23.260 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:06:23.262 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:06:23.265 UTC [29] LOG:  database system was shut down at 2024-07-01 14:06:21 UTC
+postgres  | 2024-07-01 14:06:23.271 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:06:41.172 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:06:41.175 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:06:41.176 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:06:41.176 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:06:41.178 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:06:41.184 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.009 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987B90, redo lsn=0/1987B90
+postgres  | 2024-07-01 14:06:41.187 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:06:42.639 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:06:42.639 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:06:42.639 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:06:42.641 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:06:42.644 UTC [29] LOG:  database system was shut down at 2024-07-01 14:06:41 UTC
+postgres  | 2024-07-01 14:06:42.650 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:06:54.524 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:06:54.525 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:06:54.526 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:06:54.526 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:06:54.527 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:06:54.532 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987C08, redo lsn=0/1987C08
+postgres  | 2024-07-01 14:06:54.535 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:07:00.302 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:07:00.302 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:07:00.302 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:07:00.304 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:07:00.307 UTC [29] LOG:  database system was shut down at 2024-07-01 14:06:54 UTC
+postgres  | 2024-07-01 14:07:00.311 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:07:11.197 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:07:11.201 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:07:11.205 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:07:11.205 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:07:11.205 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:07:11.210 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987C80, redo lsn=0/1987C80
+postgres  | 2024-07-01 14:07:11.213 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:13:45.699 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:13:45.699 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:13:45.699 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:13:45.701 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:13:45.704 UTC [29] LOG:  database system was shut down at 2024-07-01 14:07:11 UTC
+postgres  | 2024-07-01 14:13:45.708 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:13:59.163 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:13:59.164 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:13:59.165 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:13:59.165 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:13:59.166 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:13:59.170 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987CF8, redo lsn=0/1987CF8
+postgres  | 2024-07-01 14:13:59.172 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:16:42.793 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:16:42.793 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:16:42.793 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:16:42.795 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:16:42.798 UTC [29] LOG:  database system was shut down at 2024-07-01 14:13:59 UTC
+postgres  | 2024-07-01 14:16:42.802 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:16:55.621 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:16:55.621 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:16:55.621 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:16:55.622 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:16:55.627 UTC [29] LOG:  database system was interrupted; last known up at 2024-07-01 14:16:42 UTC
+postgres  | 2024-07-01 14:16:55.760 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+postgres  | 2024-07-01 14:16:55.761 UTC [29] LOG:  invalid record length at 0/1987D70: expected at least 24, got 0
+postgres  | 2024-07-01 14:16:55.761 UTC [29] LOG:  redo is not required
+postgres  | 2024-07-01 14:16:55.763 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+postgres  | 2024-07-01 14:16:55.768 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.005 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987D70, redo lsn=0/1987D70
+postgres  | 2024-07-01 14:16:55.770 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:17:06.185 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:17:06.185 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:17:06.187 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:17:06.187 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:17:06.187 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:17:06.190 UTC [27] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1987DE8, redo lsn=0/1987DE8
+postgres  | 2024-07-01 14:17:06.195 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:19:57.492 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:19:57.492 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:19:57.492 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:19:57.494 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:19:57.497 UTC [29] LOG:  database system was shut down at 2024-07-01 14:17:06 UTC
+postgres  | 2024-07-01 14:19:57.500 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:20:09.688 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:20:09.689 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:20:09.690 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:20:09.690 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:20:09.691 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:20:09.695 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987E60, redo lsn=0/1987E60
+postgres  | 2024-07-01 14:20:09.698 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:20:10.802 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:20:10.802 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:20:10.802 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:20:10.803 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:20:10.807 UTC [29] LOG:  database system was shut down at 2024-07-01 14:20:09 UTC
+postgres  | 2024-07-01 14:20:10.812 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:20:37.618 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:20:37.619 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:20:37.620 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:20:37.620 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:20:37.621 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:20:37.626 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987F10, redo lsn=0/1987F10
+postgres  | 2024-07-01 14:20:37.629 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:20:39.095 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:20:39.095 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:20:39.095 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:20:39.096 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:20:39.099 UTC [29] LOG:  database system was shut down at 2024-07-01 14:20:37 UTC
+postgres  | 2024-07-01 14:20:39.104 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:21:06.543 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:21:06.543 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:21:06.545 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:21:06.545 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:21:06.546 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:21:06.550 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.005 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1987FC0, redo lsn=0/1987FC0
+postgres  | 2024-07-01 14:21:06.553 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:21:07.735 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:21:07.735 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:21:07.735 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:21:07.737 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:21:07.741 UTC [29] LOG:  database system was shut down at 2024-07-01 14:21:06 UTC
+postgres  | 2024-07-01 14:21:07.745 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:21:47.248 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:21:47.249 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:21:47.250 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:21:47.250 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:21:47.251 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:21:47.256 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1988088, redo lsn=0/1988088
+postgres  | 2024-07-01 14:21:47.258 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:21:52.259 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:21:52.260 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:21:52.260 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:21:52.261 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:21:52.265 UTC [29] LOG:  database system was shut down at 2024-07-01 14:21:47 UTC
+postgres  | 2024-07-01 14:21:52.271 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:23:07.596 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:23:07.596 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:23:07.598 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:23:07.598 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:23:07.599 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:23:07.603 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1988138, redo lsn=0/1988138
+postgres  | 2024-07-01 14:23:07.606 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:23:08.685 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:23:08.685 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:23:08.685 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:23:08.686 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:23:08.689 UTC [29] LOG:  database system was shut down at 2024-07-01 14:23:07 UTC
+postgres  | 2024-07-01 14:23:08.695 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:23:13.510 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:23:13.510 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:23:13.510 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:23:13.512 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:23:13.515 UTC [29] LOG:  database system was interrupted; last known up at 2024-07-01 14:23:08 UTC
+postgres  | 2024-07-01 14:23:13.651 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+postgres  | 2024-07-01 14:23:13.652 UTC [29] LOG:  invalid record length at 0/19881B0: expected at least 24, got 0
+postgres  | 2024-07-01 14:23:13.652 UTC [29] LOG:  redo is not required
+postgres  | 2024-07-01 14:23:13.654 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+postgres  | 2024-07-01 14:23:13.658 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.006 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/19881B0, redo lsn=0/19881B0
+postgres  | 2024-07-01 14:23:13.661 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:25:09.434 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:25:09.434 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:25:09.434 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:25:09.436 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:25:09.439 UTC [29] LOG:  database system was interrupted; last known up at 2024-07-01 14:23:13 UTC
+postgres  | 2024-07-01 14:25:09.597 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+postgres  | 2024-07-01 14:25:09.599 UTC [29] LOG:  redo starts at 0/1988228
+postgres  | 2024-07-01 14:25:09.599 UTC [29] LOG:  invalid record length at 0/1988260: expected at least 24, got 0
+postgres  | 2024-07-01 14:25:09.599 UTC [29] LOG:  redo done at 0/1988228 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+postgres  | 2024-07-01 14:25:09.600 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+postgres  | 2024-07-01 14:25:09.611 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.001 s, total=0.012 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1988260, redo lsn=0/1988260
+postgres  | 2024-07-01 14:25:09.614 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:26:23.976 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:26:23.977 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:26:23.978 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+postgres  | 2024-07-01 14:26:23.978 UTC [27] LOG:  shutting down
+postgres  | 2024-07-01 14:26:23.979 UTC [27] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:26:23.981 UTC [27] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.003 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1988310, redo lsn=0/1988310
+postgres  | 2024-07-01 14:26:23.984 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:26:25.159 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:26:25.159 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:26:25.159 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:26:25.161 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:26:25.164 UTC [28] LOG:  database system was shut down at 2024-07-01 14:26:23 UTC
+postgres  | 2024-07-01 14:26:25.168 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:26:33.872 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:26:33.872 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:26:33.872 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:26:33.874 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:26:33.888 UTC [28] LOG:  database system was interrupted; last known up at 2024-07-01 14:26:25 UTC
+postgres  | 2024-07-01 14:26:34.031 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+postgres  | 2024-07-01 14:26:34.032 UTC [28] LOG:  invalid record length at 0/1988388: expected at least 24, got 0
+postgres  | 2024-07-01 14:26:34.032 UTC [28] LOG:  redo is not required
+postgres  | 2024-07-01 14:26:34.037 UTC [26] LOG:  checkpoint starting: end-of-recovery immediate wait
+postgres  | 2024-07-01 14:26:34.043 UTC [26] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.001 s, total=0.009 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1988388, redo lsn=0/1988388
+postgres  | 2024-07-01 14:26:34.047 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 2024-07-01 14:40:37.327 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:40:37.328 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:40:37.330 UTC [1] LOG:  background worker "logical replication launcher" (PID 31) exited with exit code 1
+postgres  | 2024-07-01 14:40:37.330 UTC [26] LOG:  shutting down
+postgres  | 2024-07-01 14:40:37.331 UTC [26] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:40:37.333 UTC [26] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.004 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1988438, redo lsn=0/1988438
+postgres  | 2024-07-01 14:40:37.337 UTC [1] LOG:  database system is shut down
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:40:49.862 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:21:13 +0000] "GET / HTTP/1.1" 200 285 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:21:14 +0000] "GET /favicon.ico HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:21:14 +0000] "GET / HTTP/1.1" 200 285 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:21:14 +0000] "GET /favicon.ico HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+angular   | 
+angular   | > angular@0.0.0 start
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:23:09 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+postgres  | 2024-07-01 14:40:49.862 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:40:49.862 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:40:49.866 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:40:49.870 UTC [29] LOG:  database system was shut down at 2024-07-01 14:40:37 UTC
+postgres  | 2024-07-01 14:40:49.875 UTC [1] LOG:  database system is ready to accept connections
+postgres  | 
+postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres  | 
+postgres  | 2024-07-01 14:40:55.831 UTC [1] LOG:  starting PostgreSQL 16.3 (Debian 16.3-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+postgres  | 2024-07-01 14:40:55.832 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres  | 2024-07-01 14:40:55.832 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres  | 2024-07-01 14:40:55.833 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres  | 2024-07-01 14:40:55.836 UTC [28] LOG:  database system was interrupted; last known up at 2024-07-01 14:40:49 UTC
+postgres  | 2024-07-01 14:40:55.981 UTC [28] LOG:  database system was not properly shut down; automatic recovery in progress
+postgres  | 2024-07-01 14:40:55.982 UTC [28] LOG:  invalid record length at 0/19884B0: expected at least 24, got 0
+postgres  | 2024-07-01 14:40:55.982 UTC [28] LOG:  redo is not required
+postgres  | 2024-07-01 14:40:55.985 UTC [26] LOG:  checkpoint starting: end-of-recovery immediate wait
+postgres  | 2024-07-01 14:40:55.998 UTC [26] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.002 s, total=0.015 s; sync files=2, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/19884B0, redo lsn=0/19884B0
+postgres  | 2024-07-01 14:40:56.003 UTC [1] LOG:  database system is ready to accept connections
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:23:14 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:24:59 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:3
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:25:28 +0000] "GET / HTTP/1.1" 200 285 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:26:25 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:4
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:4
+angular   | Application bundle generation complete. [2.292 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   | Re-optimizing dependencies because vite config has changed
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+laravel   | [01-Jul-2024 14:05:55] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+angular   | 
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_05_55_951Z-debug-0.log
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+angular   | 
+laravel   | [01-Jul-2024 14:05:55] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+laravel   | [01-Jul-2024 14:05:55] NOTICE: fpm is running, pid 1
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+laravel   | [01-Jul-2024 14:05:55] NOTICE: ready to handle connections
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:26:39 +0000] "GET / HTTP/1.1" 200 285 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | 2024/07/01 14:26:58 [error] 28#28: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 172.20.0.1, server: , request: "GET /apo HTTP/1.1", host: "localhost"
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:26:58 +0000] "GET /apo HTTP/1.1" 500 572 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | 172.20.0.1 - - [01/Jul/2024:14:27:00 +0000] "GET /api HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+laravel   | [01-Jul-2024 14:06:20] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:06:20] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:06:23] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:06:23] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:06:23] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:06:23] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:06:39] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:06:39] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:06:42] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:06:42] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:06:42] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:06:42] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:06:44] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:06:44] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:07:00] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:07:00] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:07:00] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:07:00] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:07:01] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:07:01] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:13:45] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:13:45] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:40:50 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:31
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:31
+nginx     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx     | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+nginx     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx     | 2024/07/01 14:40:56 [emerg] 1#1: unexpected ";" in /etc/nginx/conf.d/default.conf:31
+nginx     | nginx: [emerg] unexpected ";" in /etc/nginx/conf.d/default.conf:31
+laravel   | [01-Jul-2024 14:13:45] NOTICE: fpm is running, pid 1
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.790 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:05:56 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:05:58 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +29ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +37ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:21:12 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:21:12 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:21:12 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:21:12 +0000] [89] [INFO] Booting worker with pid: 89
+pgadmin   | [2024-07-01 14:21:45 +0000] [1] [INFO] Handling signal: term
+pgadmin   | [2024-07-01 14:21:45 +0000] [89] [INFO] Worker exiting (pid: 89)
+pgadmin   | [2024-07-01 14:21:46 +0000] [1] [INFO] Shutting down: Master
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:21:57 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:21:57 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:21:57 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:21:57 +0000] [83] [INFO] Booting worker with pid: 83
+pgadmin   | [2024-07-01 14:23:06 +0000] [1] [INFO] Handling signal: term
+pgadmin   | [2024-07-01 14:23:06 +0000] [83] [INFO] Worker exiting (pid: 83)
+pgadmin   | [2024-07-01 14:23:06 +0000] [1] [INFO] Shutting down: Master
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:05:59 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+laravel   | [01-Jul-2024 14:13:45] NOTICE: ready to handle connections
+nest      | npm error path /soundscape/src/app
+laravel   | [01-Jul-2024 14:13:57] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:13:57] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:16:42] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:16:42] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:16:42] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:16:42] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:16:48] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:16:48] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:16:55] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:16:55] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:16:55] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:16:55] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:16:56] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:16:56] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:19:57] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:19:57] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:19:57] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:19:57] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:20:08] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:20:08] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:20:10] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:23:18 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:23:18 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:23:18 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:23:18 +0000] [83] [INFO] Booting worker with pid: 83
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:25:14 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:25:14 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:25:14 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:25:14 +0000] [83] [INFO] Booting worker with pid: 83
+pgadmin   | [2024-07-01 14:26:22 +0000] [1] [INFO] Handling signal: term
+pgadmin   | [2024-07-01 14:26:22 +0000] [83] [INFO] Worker exiting (pid: 83)
+pgadmin   | [2024-07-01 14:26:23 +0000] [1] [INFO] Shutting down: Master
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:26:29 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:26:29 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:26:29 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:26:29 +0000] [83] [INFO] Booting worker with pid: 83
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:26:38 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:26:38 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:26:38 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:26:38 +0000] [83] [INFO] Booting worker with pid: 83
+pgadmin   | [2024-07-01 14:40:35 +0000] [1] [INFO] Handling signal: term
+pgadmin   | [2024-07-01 14:40:36 +0000] [83] [INFO] Worker exiting (pid: 83)
+pgadmin   | [2024-07-01 14:40:36 +0000] [1] [INFO] Shutting down: Master
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | postfix/postlog: starting the Postfix mail system
+pgadmin   | [2024-07-01 14:41:00 +0000] [1] [INFO] Starting gunicorn 22.0.0
+pgadmin   | [2024-07-01 14:41:00 +0000] [1] [INFO] Listening at: http://[::]:80 (1)
+pgadmin   | [2024-07-01 14:41:00 +0000] [1] [INFO] Using worker: gthread
+pgadmin   | [2024-07-01 14:41:00 +0000] [83] [INFO] Booting worker with pid: 83
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_05_55_790Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:06:23 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:06:25 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +28ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +47ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_06_23_661Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_06_43_030Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_07_00_716Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.927 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_13_46_100Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.972 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:06:26 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_06_23_496Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:06:43 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:06:45 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_06_42_844Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+laravel   | [01-Jul-2024 14:20:10] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+angular   | 
+laravel   | [01-Jul-2024 14:20:10] NOTICE: fpm is running, pid 1
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_16_43_195Z-debug-0.log
+laravel   | [01-Jul-2024 14:20:10] NOTICE: ready to handle connections
+angular   | 
+laravel   | [01-Jul-2024 14:20:36] NOTICE: Finishing ...
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_16_56_052Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+laravel   | [01-Jul-2024 14:20:36] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:20:39] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:20:39] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:20:39] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:20:39] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:21:05] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:21:05] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:21:07] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:21:07] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:21:07] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:21:07] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:21:45] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:21:45] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:21:52] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:21:52] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:21:52] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:21:52] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:23:06] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:23:06] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:23:08] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:23:08] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:23:08] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:23:08] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:23:09] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:23:09] NOTICE: exiting, bye-bye!
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+nest      | c[[90m2:07:00 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_07_00_535Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:13:46 PM[0m] Starting compilation in watch mode...
+nest      | 
+laravel   | [01-Jul-2024 14:23:13] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:23:13] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:23:13] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:23:13] NOTICE: ready to handle connections
+nest      | [[90m2:13:48 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+laravel   | [01-Jul-2024 14:25:09] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:25:09] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:25:09] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:25:09] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:26:22] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:26:22] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:26:25] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:26:25] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:26:25] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:26:25] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:26:26] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:26:26] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:26:33] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:26:33] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:26:33] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:26:33] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:40:35] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:40:35] NOTICE: exiting, bye-bye!
+laravel   | [01-Jul-2024 14:40:49] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:40:49] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+laravel   | [01-Jul-2024 14:40:49] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:40:49] NOTICE: ready to handle connections
+laravel   | [01-Jul-2024 14:40:51] NOTICE: Finishing ...
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.872 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+laravel   | [01-Jul-2024 14:40:51] NOTICE: exiting, bye-bye!
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+laravel   | [01-Jul-2024 14:40:55] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +28ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+laravel   | [01-Jul-2024 14:40:55] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+laravel   | [01-Jul-2024 14:40:55] NOTICE: fpm is running, pid 1
+laravel   | [01-Jul-2024 14:40:55] NOTICE: ready to handle connections
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_19_57_904Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +50ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:13:49 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_13_45_933Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:16:43 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:16:45 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +31ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.974 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +43ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:16:46 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_16_43_016Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:16:56 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_16_55_862Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:19:58 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:20:00 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +24ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +38ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +6ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:00 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_19_57_745Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:20:11 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:20:13 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +27ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +38ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_20_11_230Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.960 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:14 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_20_11_038Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:20:39 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:20:41 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +30ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_20_39_487Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.982 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +41ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:20:42 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_20_39_315Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:21:08 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:21:10 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +28ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_21_08_183Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +37ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_21_07_979Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:21:52 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:21:55 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +34ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +47ms[39m
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [2.105 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_21_52_672Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:21:56 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_21_52_501Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:23:09 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:23:14 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:23:16 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +28ms[39m
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_23_09_100Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +40ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:23:17 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [2.012 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+nest      | c[[90m2:25:10 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:25:12 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +30ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +39ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+angular   | 
+angular   | Application bundle generation complete. [2.143 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_25_09_879Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:25:13 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_25_09_706Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:26:25 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:26:27 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+nest      | npm error signal SIGTERM
+angular   | 
+nest      | npm error command sh -c nest start --watch
+nest      | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_26_25_553Z-debug-0.log
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_26_25_377Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:26:34 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:26:36 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +28ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +38ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +7ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +2ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:26:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_26_34_112Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:40:50 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:40:52 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+angular   | 
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_40_50_088Z-debug-0.log
+nest      | 
+nest      | > nest@0.0.1 start:dev
+nest      | > nest start --watch
+nest      | 
+nest      | c[[90m2:40:56 PM[0m] Starting compilation in watch mode...
+nest      | 
+nest      | [[90m2:40:58 PM[0m] Found 0 errors. Watching for file changes.
+nest      | 
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +33ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +63ms[39m
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [1.998 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_26_34_282Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +13ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api, GET} route[39m[38;5;3m +3ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/api/users}:[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, POST} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users, GET} route[39m[38;5;3m +1ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/users/login, POST} route[39m[38;5;3m +0ms[39m
+nest      | [32m[Nest] 31  - [39m07/01/2024, 2:40:59 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_40_50_249Z-debug-0.log
+angular   | 
+angular   | > angular@0.0.0 start
+angular   | > ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | 
+angular   | Warning: This is a simple server for use in testing or debugging Angular applications
+angular   | locally. It hasn't been reviewed for security issues.
+angular   | 
+angular   | Binding this server to an open connection can result in compromising your application or
+angular   | computer. Using a different host than the one passed to the "--host" flag might result in
+angular   | websocket connection issues. You might need to use "--disable-host-check" if that's the
+angular   | case.
+angular   |     
+angular   | - Building...
+angular   | 
+angular   | Initial chunk files | Names         |  Raw size
+angular   | polyfills.js        | polyfills     |  88.34 kB | 
+angular   | styles.css          | styles        |  44.33 kB | 
+angular   | main.js             | main          |  27.26 kB | 
+angular   | 
+angular   |                     | Initial total | 159.93 kB
+angular   | 
+angular   | Application bundle generation complete. [2.163 seconds]
+angular   | 
+angular   | Watch mode enabled. Watching for file changes...
+angular   | NOTE: Raw file sizes do not reflect development server per-request transformations.
+angular   |   ➜  Local:   http://localhost:4200/
+angular   |   ➜  Network: http://172.20.0.6:4200/
+pgadmin   | [2024-07-01 14:42:06 +0000] [1] [INFO] Handling signal: term
+laravel   | [01-Jul-2024 14:42:06] NOTICE: Finishing ...
+laravel   | [01-Jul-2024 14:42:06] NOTICE: exiting, bye-bye!
+[Klaravel exited with code 0
+angular   | npm error path /soundscore/angular/src/app
+angular   | npm error command failed
+angular   | npm error signal SIGTERM
+angular   | npm error command sh -c ng serve --host=0.0.0.0 --port 4200
+angular   | 
+angular   | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_40_56_217Z-debug-0.log
+[Kangular exited with code 1
+pgadmin   | [2024-07-01 14:42:07 +0000] [83] [INFO] Worker exiting (pid: 83)
+nest      | npm error path /soundscape/src/app
+nest      | npm error command failed
+nest      | npm error signal SIGTERM
+nest      | npm error command sh -c nest start --watch
+nest      | 
+nest      | npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-01T14_40_56_048Z-debug-0.log
+[Knest exited with code 1
+pgadmin   | [2024-07-01 14:42:08 +0000] [1] [INFO] Shutting down: Master
+[Kpgadmin exited with code 0
+postgres  | 2024-07-01 14:42:08.984 UTC [1] LOG:  received fast shutdown request
+postgres  | 2024-07-01 14:42:08.985 UTC [1] LOG:  aborting any active transactions
+postgres  | 2024-07-01 14:42:08.986 UTC [1] LOG:  background worker "logical replication launcher" (PID 31) exited with exit code 1
+postgres  | 2024-07-01 14:42:08.986 UTC [26] LOG:  shutting down
+postgres  | 2024-07-01 14:42:08.987 UTC [26] LOG:  checkpoint starting: shutdown immediate
+postgres  | 2024-07-01 14:42:08.991 UTC [26] LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.001 s, total=0.005 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB; lsn=0/1988560, redo lsn=0/1988560
+postgres  | 2024-07-01 14:42:08.994 UTC [1] LOG:  database system is shut down
+[Kpostgres exited with code 0

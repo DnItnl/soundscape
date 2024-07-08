@@ -3,15 +3,24 @@ services:
     container_name: nginx
     image: nginx
     volumes:
-      # - ./config/nginx:/etc/nginx
-      - ./config/nginx:/etc/nginx/conf.d
       - ./laravel/:/var/www
+      - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+
+
+      # - ./frontend/build:/var/www/frontend
+      # - ./config/nginx/frontend.conf:/etc/nginx/conf.d/frontend.conf
+    
+
     ports:
       - "80:80"
     depends_on:
       - nest
       - angular
       - postgres
+    networks:
+      - network
 
   nest:
     container_name: nest
@@ -33,6 +42,8 @@ services:
     ports:
       - 3000:3000
       - 9229:9229
+    networks:
+      - network
 
   angular:
     container_name: angular
@@ -51,17 +62,21 @@ services:
       - 4200:4200
     links:
       - nest
+    networks:
+      - network
   laravel:
     container_name: laravel
     user: "1000:1000"
     build:
       context: ./laravel
-      dockerfile: Dockerfile
+      dockerfile: ../config/php/Dockerfile
     volumes:
       - ./laravel/:/var/www
     working_dir: /home/source/main
     ports:
       - 8000:8000
+    networks:
+      - network
   postgres:
     container_name: postgres
     image: postgres:16.3
@@ -71,6 +86,9 @@ services:
       POSTGRES_DB: db
     ports:
       - 35000:5432
+    networks:
+      - network
+      
   postgres_admin:
     container_name: pgadmin
     image: dpage/pgadmin4
@@ -82,3 +100,8 @@ services:
       PGADMIN_CONFIG_SERVER_MODE: "False"
     ports:
       - 5050:80
+    networks:
+      - network
+networks:
+  network:
+    driver: bridge
