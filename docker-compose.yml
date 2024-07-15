@@ -48,8 +48,8 @@ services:
   angular:
     container_name: angular
     build:
-      dockerfile: Dockerfile
       context: ./angular
+      # dockerfile: ../config/angular/Dockerfile
       target: development
     command: npm run start
     volumes:
@@ -87,8 +87,7 @@ services:
     ports:
       - 35000:5432
     networks:
-      - network
-      
+      - network 
   postgres_admin:
     container_name: pgadmin
     image: dpage/pgadmin4
